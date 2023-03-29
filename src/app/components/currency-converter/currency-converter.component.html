@@ -1,0 +1,26 @@
+<div class="container">
+  <h1>Convert EUR to USD.</h1>
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-control">
+      <label for="eur">Euros</label>
+      <input
+        type="number"
+        name="eur"
+        placeholder="Enter amount in EUR"
+        [(ngModel)]="eur"
+      />
+    </div>
+    <div class="form-control">
+      <label for="usd">United States Dollars</label>
+      <input
+        type="text"
+        name="usd"
+        class="read-only"
+        placeholder="Amount in USD"
+        [(ngModel)]="usd"
+        disabled
+      />
+    </div>
+    <input type="submit" value="Convert" class="btn btn-block" />
+  </form>
+</div>

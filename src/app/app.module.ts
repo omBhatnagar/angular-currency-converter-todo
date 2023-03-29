@@ -13,6 +13,7 @@ import { TaskItemComponent } from './components/task-item/task-item.component';
 import { AddTaskComponent } from './components/add-task/add-task.component';
 import { TodoRootComponent } from './components/todo-root/todo-root.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { CurrencyConverterComponent } from './components/currency-converter/currency-converter.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     AddTaskComponent,
     TodoRootComponent,
     NavbarComponent,
+    CurrencyConverterComponent,
   ],
   imports: [
     BrowserModule,

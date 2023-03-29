@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AppComponent } from './app.component';
+import { CurrencyConverterComponent } from './components/currency-converter/currency-converter.component';
 import { TodoRootComponent } from './components/todo-root/todo-root.component';
 
 const routes: Routes = [
@@ -12,6 +12,10 @@ const routes: Routes = [
   {
     path: 'todo',
     component: TodoRootComponent,
+  },
+  {
+    path: 'converter',
+    component: CurrencyConverterComponent,
   },
 ];
 
