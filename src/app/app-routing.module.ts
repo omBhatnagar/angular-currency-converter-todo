@@ -6,7 +6,8 @@ import { TodoRootComponent } from './components/todo-root/todo-root.component';
 const routes: Routes = [
   {
     path: '',
-    component: AppComponent,
+    redirectTo: '/todo',
+    pathMatch: 'full',
   },
   {
     path: 'todo',

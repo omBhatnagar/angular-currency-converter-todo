@@ -12,6 +12,7 @@ import { TasksComponent } from './components/tasks/tasks.component';
 import { TaskItemComponent } from './components/task-item/task-item.component';
 import { AddTaskComponent } from './components/add-task/add-task.component';
 import { TodoRootComponent } from './components/todo-root/todo-root.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { TodoRootComponent } from './components/todo-root/todo-root.component';
     TaskItemComponent,
     AddTaskComponent,
     TodoRootComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
