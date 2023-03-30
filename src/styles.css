@@ -10,6 +10,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.alert {
+  color: red;
+}
+
 .container {
   max-width: 500px;
   margin: 30px auto;

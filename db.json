@@ -25,8 +25,8 @@
       "reminder": true
     },
     {
-      "text": "test 2",
-      "day": "may 2nd",
+      "text": "Test 2",
+      "day": "Feb 2nd at 5:40pm",
       "reminder": false,
       "id": 5
     }

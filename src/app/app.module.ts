@@ -14,6 +14,8 @@ import { AddTaskComponent } from './components/add-task/add-task.component';
 import { TodoRootComponent } from './components/todo-root/todo-root.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { CurrencyConverterComponent } from './components/currency-converter/currency-converter.component';
+import { SignupComponent } from './components/signup/signup.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { CurrencyConverterComponent } from './components/currency-converter/curr
     TodoRootComponent,
     NavbarComponent,
     CurrencyConverterComponent,
+    SignupComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
